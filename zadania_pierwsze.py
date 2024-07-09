@@ -57,14 +57,14 @@
 import random
 
 random_number = random.randint(1, 100)
-user_number=None
+user_number = None
 
-while user_number!=random_number:
-    user_number=int(input("Podaj liczbę: "))
+while user_number != random_number:
+    user_number = int(input("Podaj liczbę: "))
 
-    if user_number<random_number:
+    if user_number < random_number:
         print("Za mało")
-    elif user_number>random_number:
+    elif user_number > random_number:
         print("Za dużo")
     else:
         print("Udało Ci się odgadnąć liczbę")
