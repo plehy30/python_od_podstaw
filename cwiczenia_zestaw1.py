@@ -62,7 +62,7 @@
 # 9. Pobierz od użytkownika trzy liczby całkowite i uporządkuj je w kolejności od najmniejszej do największej.
 a = 5  # teraz możemy napisać: int(input('Podaj liczbę a:))
 b = 15  # teraz możemy napisać: int(input('Podaj liczbę b:))
-c = 10  # teraz możemy napisać: int(input('Podaj liczbę a:))
+c = 10  # teraz możemy napisać: int(input('Podaj liczbę c:))
 
 if a > b:
     a, b = b, a

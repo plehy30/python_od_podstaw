@@ -1,4 +1,4 @@
-# 1.Stwórz listę, którą wypełnisz dziesięcioma liczbami całkowitymi i zwróć somę wszystkich liczb z tej listy
+# 1.Stwórz listę, którą wypełnisz dziesięcioma liczbami całkowitymi i zwróć sómę wszystkich liczb z tej listy
 numbers = [2, 5, 7, 19, 21, 34, 77, 80, 90, 120]
 sum = 0
 for number in numbers:
@@ -14,7 +14,7 @@ for word in words:
     if len(word) > 5:
         more_than_5_letter.append(word)
 print(more_than_5_letter)
-# 3. Stwórz listę, którą wypełnisz dziesięcioma liczbami całkowitymi. Znajdź nalmniejszą i największą.
+# 3. Stwórz listę, którą wypełnisz dziesięcioma liczbami całkowitymi. Znajdź najmniejszą i największą.
 numbers_3 = [56, 43, 10, 7, 99, 65, 43, 17, 37, 101]
 smallest = numbers_3[0]
 largest = numbers_3[0]
